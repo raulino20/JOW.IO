@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> 
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JONATHAM</title>
+</head>
+<body>
+
+<nav class="navbar p-2 navbar-expand-lg navbar-dark bg-dark">
+       <span class="navbar-brand">JOWCAMPOS</span>
+       <button class="navbar-toggler " type="button" onclick="clickMenu()" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" id="icon"></span>
+   </button>
+
+   <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav listHeader text-light">
+        <li class="nav-item Listitem" onclick=quemSomos()><i class="bi bi-info-circle-fill"> Quem Somos</i></li>
+    
+        <div class="nav dropdown" id="who">
+            <p class="texttest">Lorem ipsum dolor, sit amet consectetur adipisicing elit. A quidem iure, inventore beatae veritatis nemo!</p>
+        </div>
+
+        <li class="nav-item Listitem" onclick=numBer()><i class="bi bi-telephone"> Contatos</i></li>
+       
+        <div class="nav dropdown" id="num">
+            <p class="texttest">(xx) xxx-xxxxx </p>
+            <p class="texttest">(xx) xxx-xxxxx</p>
+        </div>
+
+        <li class="nav-item Listitem"><i class="bi bi-person-fill-add"> Afilia - Se </i></li>
+        <li class="nav-item Listitem"><i class="bi bi-door-open-fill"> Login</i></li>
+    </ul>
+   </div>
+
+</nav>
+
+    <div class="container container00 border ">
+
+
+
+
+        <h1 data-aos="flip-up" data-aos-duration="2000"><i class="bi bi-check-circle-fill"> Produtos Completos </i></h1>
+        <table class="table table-bordered table-dark" data-aos="fade-left" data-aos-duration="2000">
+            <thead class="">
+                <tr>
+                    <th class="titlehead bg-primary">Produtos completos para envio</th>
+                    <th class="titlehead bg-primary">Estoque Final</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>MI Box 3 Completo</td>
+                    <td>7</td>
+                </tr>
+
+                <tr>
+                    <td>MI Box 4 Completo</td>
+                    <td>4</td>
+                </tr>
+
+                <tr>
+                    <td>MI Stick Novo Completo</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>MI Stick Recondicionado Completo</td>
+                    <td>21</td>
+                </tr>
+                
+                <tr>
+                    <td>TX 3 mini Completo</td> 
+                    <td>1</td>
+
+                </tr>
+            </tbody> 
+        </table>
+
+        <hr class="text-light">
+            <!--IMCOMPLETOOOSSSS-->
+            <h1 data-aos="flip-up" data-aos-duration="2000"><i class="bi bi-exclamation-triangle-fill"> Produtos Incompletos</i></h1>
+        <table class="table table-bordered table-dark" data-aos="fade-right" data-aos-duration="2000">
+           <thead>
+                <tr>
+                    <th class="titlehead bg-danger"> Produtos Incompletos</th>
+                    <th class="titlehead bg-danger">Estoque Final</th>
+                </tr>
+            </thead>
+      
+        
+            <tbody>
+                <tr>
+                    <td>MI Stock Incompleto (HDMI)</td>
+                    <td>4</td>
+                    
+                </tr>    
+                <tr>
+                    <td>MI Stick Incompleto (Fonte)</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>MI Stick Incompleto (USB)</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>MI Stick Incompleto (Controle)</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>MI Stick Somente Base</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>MI Box 3 Incompleto (HDMI)</td>
+                    <td>0</td>
+                </tr>
+
+                <tr>
+                    <td>MI Box 3 Incompleto (Cabo de Energia)</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>MI Box 3 Incompleto (Controle)</td>
+                    <td>0</td>
+                
+                </tr>
+                <tr>
+                    <td>MI Box 3 Incompleto Sortidos</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>MI Box 4 Incompleto (HDMI)</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>MI Box 4 Incompleto (Cabo de Energia)</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>MI Box 4 Incompleto (Controle)</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>MI Box 4 Incompleto Sortidos</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>MI Box 3 mini Incompleto (Controle)</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>TX 3 mini Incompleto (HDMI)</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>TX 3 mini Incompleto (Cabo de Energia)</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>TX 3 mini Incompleto Sortidos</td>
+                    <td>0</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr class="text-light">
+            <h1 data-aos="flip-up" data-aos-duration="2000"><i class="bi bi-puzzle-fill"> Acessórios</i> </h1>
+
+        <table class="table table-bordered table-dark" data-aos="flip-right" data-aos-duration="2000">
+
+            <thead>
+                <tr>
+                    <th class="titlehead bg-warning">Acessórios</th>
+                    <th class="titlehead bg-warning">Estoque Final</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Controle (MI Stick / MI Box 4)</td>
+                    <td>4</td>
+                 </tr>
+
+                 <tr>   
+                    <td>Controle (MI Box 3)</td>
+                    <td>2</td>
+                 </tr>
+
+                 <tr>
+                    <td>Controle (MI Box 4)</td>
+                    <td>1</td>
+                 </tr>
+
+                 <tr>
+                    <td>Controle (TX 3 mini)</td>
+                    <td>0</td>
+                </tr>
+
+                <tr>
+                    <td>Cabo USB</td>
+                    <td>16</td>
+
+                </tr>
+
+                <tr>
+                    <td>Fonte</td>
+                    <td>3</td>
+
+                </tr>
+
+                <tr>
+                    <td>Cabo de Energia (MI Box)</td>
+                    <td>15</td>
+                </tr>
+
+                <tr>
+                    <td>Cabo de Energia (TX 3 mini)</td>
+                    <td>5</td>
+                </tr>
+
+                <tr>
+                    <td>Cabo HDMI</td>
+                    <td>9</td>
+                </tr>
+
+                <tr>
+                    <td>Cabo HDMI MI Stick</td>
+                    <td>1</td>
+                </tr>
+            </tbody>   
+        </table>
+    </div>
+
+    <div class="footer bg-dark">
+        <h2 class="text-light">NOME DA EMPRESA</h2>
+
+    <ul class="RedesSociais">
+        <li class=" listsocial  p-2">   <span class="bi bi-instagram text-light" > Instagram</span>
+        <li class=" listsocial  p-2">   <span class="bi bi-facebook text-light" > Facebook</span>
+        <li class=" listsocial  p-2">   <span class="bi bi-twitter text-light" > Twitter</span>
+
+    </ul>
+        <span class="copy" >Developed By :&copy;cauaRaulino</span>
+
+
+
+
+    </div>
+ 
+
+
+
+
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script> 
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+    AOS.init();
+   </script>
+    <script src="java.js"></script>
+</body>
+</html>
