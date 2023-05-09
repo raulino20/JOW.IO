@@ -298,15 +298,74 @@ h1{
     background-color: rgb(65, 65, 65);
 }
 
+.titlefooter{
+    width: auto;
+    height: max-content;
+    margin: auto;
+    font-size: 35px;
+}
+
+
+
+@media(max-width:1024px){
+.titlefooter{
+    width: auto;
+    height: max-content;
+    margin: auto;
+    font-size: 30px;
+    }
+}
+
+@media(max-width:768px){
+    .titlefooter{
+        width: auto;
+        height: max-content;
+        margin: auto;
+        font-size: 25px;  
+    }
+}
+
+@media(max-width:425px){
+    .titlefooter{
+        width: auto;
+        height: max-content;
+        margin: auto;
+        font-size: 20px;  
+    }
+}
+
+
 .copy{
     font-size: 20px;
     text-decoration: underline;
     color: rgb(92, 92, 92);
 }
+@media(max-width:1024px){
+    .copy{
+        font-size: 18px;
+        width: auto;
+        margin: auto;
+        height: max-content;
+        text-decoration: underline;
+        color: rgb(92, 92, 92);
+    }
+}
+
+@media(max-width:768px){
+    .copy{
+        font-size:15px;
+        height:max-content;
+        margin:auto;
+        text-decoration:underline;
+        color:rgb(92,92,92);
+
+}
 
 .RedesSociais{
     list-style: none;
     display: flex;
+    height:max-content;
+    margin:auto;
     flex-direction: row;
     justify-content: center;
     :hover{
@@ -314,10 +373,50 @@ h1{
         cursor: pointer;
         color: white;
     }
-
 }
+
+    @media(max-width:1024px){
+    .RedesSociais{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0;
+    }
+}
+
+@media(max-width:768px){
+    .RedesSociais{
+        list-style: none;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0;
+    }
+}
+
+
 
 .listsocial{
     width: auto;
+    font-size:22px;
     height: max-content;
+}
+  
+@media(max-width:1024px){
+    .listsocial{
+        width: auto;
+        font-size:20px;
+        height: max-content;
+    }
+}
+
+@media(max-width:768px){
+    .listsocial{
+        width: auto;
+        font-size:15px;
+        height: max-content;
+    }
 }
