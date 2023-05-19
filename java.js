@@ -21,3 +21,20 @@ function numBer(){
         num.style.display ='none'
     }
 }
+
+
+function enTrar(){
+  
+    if(Danger.style.display == 'none'){
+       Danger.style.display = 'block'
+       Danger.style.display='flex'
+
+  }else{
+       Danger.style.display = 'none'
+  }
+}
+
+function cloSed(){
+  Danger.style.display='none'
+  }
+
