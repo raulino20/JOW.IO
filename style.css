@@ -15,8 +15,8 @@ body{
 
 @media(max-width:991px){
     .navbar{
-    background-image: none;
-    background-color: rgb(49, 49, 49);    }
+    background-image:linear-gradient(120deg, white,black)
+    }
 }
 
 
@@ -25,7 +25,7 @@ body{
 }
 @media(max-width:991px){
     .titleprin{
-        color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
     }
 }
 
@@ -72,10 +72,16 @@ a{
 
 /* ---------------------------------*/
 
-#icon{
+ #iCon{
     color: aliceblue;
-    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem  rgba(180, 180, 180, 0.486) ;
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem  rgba(180, 180, 180, 0.486) ; 
 }
+#iCon2{
+    display: none;
+color: rgb(13, 121, 214);
+}
+
+
 
 .dropdown-menu{
     height: 15vh;
@@ -84,6 +90,7 @@ a{
 }
 
 #who{
+    margin: 2rem auto auto auto;
     display: none;
     width: 400px;
     text-align: center;
@@ -91,24 +98,25 @@ a{
 
 @media(max-width:991px){
 #who{
-    margin: auto;
+    margin: 1rem auto auto auto;
     text-align: center;
-    width: 90%;
+    width: 80%;
     height: auto;
     display: none;
     }
 }
 
 #num{
+    margin: 1rem auto auto auto;
     display: none;
     text-align: center;
-    width: auto;
+    width:400px;
 }
 @media(max-width:991px){
     #num{
-     margin: auto;
+     margin:1rem auto auto auto;
      text-align: center;
-     width: 90%;
+     width: 50%;
      height: auto;
      display: none;
     } 
@@ -116,9 +124,9 @@ a{
 
 @media(max-width:425px){
    #num{
-    margin: auto;
+    margin:1rem auto auto auto;
     text-align: center;
-    width: 90%;
+    width: 80%;
     height: auto;
     display: none;
    } 
@@ -161,7 +169,7 @@ a{
 
 /* ------------------------------------------------------------------*/
 .texttest{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 @media(max-width:991px){
 .texttest{
@@ -195,6 +203,8 @@ font-size:18px;
     list-style:none;
 }
 
+
+
 @media(max-width:425px){
 .listHeader{
 
@@ -220,6 +230,7 @@ cursor: pointer;
 
 @media(max-width:991px){
     .Listitem{
+        background-color: rgba(0, 0, 0, 0.648);
         text-align: start;
         padding: 0.6rem;
         font-size: 20px;
